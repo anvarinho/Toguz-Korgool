@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E01E21A1259995E000DC39FA /* Toguz_KorgoolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E21A0259995E000DC39FA /* Toguz_KorgoolApp.swift */; };
+		E01E21A3259995E000DC39FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E21A2259995E000DC39FA /* ContentView.swift */; };
+		E01E21A5259995E500DC39FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01E21A4259995E500DC39FA /* Assets.xcassets */; };
+		E01E21A8259995E500DC39FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01E21A7259995E500DC39FA /* Preview Assets.xcassets */; };
+		E01E21B3259995E500DC39FA /* Toguz_KorgoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E21B2259995E500DC39FA /* Toguz_KorgoolTests.swift */; };
+		E01E21BE259995E500DC39FA /* Toguz_KorgoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E21BD259995E500DC39FA /* Toguz_KorgoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E01E21AF259995E500DC39FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E01E2195259995DF00DC39FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01E219C259995DF00DC39FA;
+			remoteInfo = "Toguz Korgool";
+		};
+		E01E21BA259995E500DC39FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E01E2195259995DF00DC39FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E01E219C259995DF00DC39FA;
+			remoteInfo = "Toguz Korgool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E01E219D259995DF00DC39FA /* Toguz Korgool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toguz Korgool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01E21A0259995E000DC39FA /* Toguz_KorgoolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toguz_KorgoolApp.swift; sourceTree = "<group>"; };
+		E01E21A2259995E000DC39FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E01E21A4259995E500DC39FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E01E21A7259995E500DC39FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E01E21A9259995E500DC39FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01E21AE259995E500DC39FA /* Toguz KorgoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toguz KorgoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01E21B2259995E500DC39FA /* Toguz_KorgoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toguz_KorgoolTests.swift; sourceTree = "<group>"; };
+		E01E21B4259995E500DC39FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01E21B9259995E500DC39FA /* Toguz KorgoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toguz KorgoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01E21BD259995E500DC39FA /* Toguz_KorgoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toguz_KorgoolUITests.swift; sourceTree = "<group>"; };
+		E01E21BF259995E500DC39FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01E219A259995DF00DC39FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21AB259995E500DC39FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21B6259995E500DC39FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E01E2194259995DF00DC39FA = {
+			isa = PBXGroup;
+			children = (
+				E01E219F259995E000DC39FA /* Toguz Korgool */,
+				E01E21B1259995E500DC39FA /* Toguz KorgoolTests */,
+				E01E21BC259995E500DC39FA /* Toguz KorgoolUITests */,
+				E01E219E259995DF00DC39FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E01E219E259995DF00DC39FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01E219D259995DF00DC39FA /* Toguz Korgool.app */,
+				E01E21AE259995E500DC39FA /* Toguz KorgoolTests.xctest */,
+				E01E21B9259995E500DC39FA /* Toguz KorgoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E01E219F259995E000DC39FA /* Toguz Korgool */ = {
+			isa = PBXGroup;
+			children = (
+				E01E21A0259995E000DC39FA /* Toguz_KorgoolApp.swift */,
+				E01E21A2259995E000DC39FA /* ContentView.swift */,
+				E01E21A4259995E500DC39FA /* Assets.xcassets */,
+				E01E21A9259995E500DC39FA /* Info.plist */,
+				E01E21A6259995E500DC39FA /* Preview Content */,
+			);
+			path = "Toguz Korgool";
+			sourceTree = "<group>";
+		};
+		E01E21A6259995E500DC39FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E01E21A7259995E500DC39FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E01E21B1259995E500DC39FA /* Toguz KorgoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E01E21B2259995E500DC39FA /* Toguz_KorgoolTests.swift */,
+				E01E21B4259995E500DC39FA /* Info.plist */,
+			);
+			path = "Toguz KorgoolTests";
+			sourceTree = "<group>";
+		};
+		E01E21BC259995E500DC39FA /* Toguz KorgoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E01E21BD259995E500DC39FA /* Toguz_KorgoolUITests.swift */,
+				E01E21BF259995E500DC39FA /* Info.plist */,
+			);
+			path = "Toguz KorgoolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E01E219C259995DF00DC39FA /* Toguz Korgool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01E21C2259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz Korgool" */;
+			buildPhases = (
+				E01E2199259995DF00DC39FA /* Sources */,
+				E01E219A259995DF00DC39FA /* Frameworks */,
+				E01E219B259995DF00DC39FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toguz Korgool";
+			productName = "Toguz Korgool";
+			productReference = E01E219D259995DF00DC39FA /* Toguz Korgool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E01E21AD259995E500DC39FA /* Toguz KorgoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01E21C5259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz KorgoolTests" */;
+			buildPhases = (
+				E01E21AA259995E500DC39FA /* Sources */,
+				E01E21AB259995E500DC39FA /* Frameworks */,
+				E01E21AC259995E500DC39FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E01E21B0259995E500DC39FA /* PBXTargetDependency */,
+			);
+			name = "Toguz KorgoolTests";
+			productName = "Toguz KorgoolTests";
+			productReference = E01E21AE259995E500DC39FA /* Toguz KorgoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E01E21B8259995E500DC39FA /* Toguz KorgoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01E21C8259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz KorgoolUITests" */;
+			buildPhases = (
+				E01E21B5259995E500DC39FA /* Sources */,
+				E01E21B6259995E500DC39FA /* Frameworks */,
+				E01E21B7259995E500DC39FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E01E21BB259995E500DC39FA /* PBXTargetDependency */,
+			);
+			name = "Toguz KorgoolUITests";
+			productName = "Toguz KorgoolUITests";
+			productReference = E01E21B9259995E500DC39FA /* Toguz KorgoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01E2195259995DF00DC39FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E01E219C259995DF00DC39FA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E01E21AD259995E500DC39FA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E01E219C259995DF00DC39FA;
+					};
+					E01E21B8259995E500DC39FA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E01E219C259995DF00DC39FA;
+					};
+				};
+			};
+			buildConfigurationList = E01E2198259995DF00DC39FA /* Build configuration list for PBXProject "Toguz Korgool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E01E2194259995DF00DC39FA;
+			productRefGroup = E01E219E259995DF00DC39FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01E219C259995DF00DC39FA /* Toguz Korgool */,
+				E01E21AD259995E500DC39FA /* Toguz KorgoolTests */,
+				E01E21B8259995E500DC39FA /* Toguz KorgoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E01E219B259995DF00DC39FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01E21A8259995E500DC39FA /* Preview Assets.xcassets in Resources */,
+				E01E21A5259995E500DC39FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21AC259995E500DC39FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21B7259995E500DC39FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E01E2199259995DF00DC39FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01E21A3259995E000DC39FA /* ContentView.swift in Sources */,
+				E01E21A1259995E000DC39FA /* Toguz_KorgoolApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21AA259995E500DC39FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01E21B3259995E500DC39FA /* Toguz_KorgoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01E21B5259995E500DC39FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01E21BE259995E500DC39FA /* Toguz_KorgoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E01E21B0259995E500DC39FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E01E219C259995DF00DC39FA /* Toguz Korgool */;
+			targetProxy = E01E21AF259995E500DC39FA /* PBXContainerItemProxy */;
+		};
+		E01E21BB259995E500DC39FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E01E219C259995DF00DC39FA /* Toguz Korgool */;
+			targetProxy = E01E21BA259995E500DC39FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E01E21C0259995E500DC39FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E01E21C1259995E500DC39FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E01E21C3259995E500DC39FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Toguz Korgool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Toguz Korgool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-Korgool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E01E21C4259995E500DC39FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Toguz Korgool/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Toguz Korgool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-Korgool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E01E21C6259995E500DC39FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toguz KorgoolTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-KorgoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toguz Korgool.app/Toguz Korgool";
+			};
+			name = Debug;
+		};
+		E01E21C7259995E500DC39FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toguz KorgoolTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-KorgoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toguz Korgool.app/Toguz Korgool";
+			};
+			name = Release;
+		};
+		E01E21C9259995E500DC39FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toguz KorgoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-KorgoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toguz Korgool";
+			};
+			name = Debug;
+		};
+		E01E21CA259995E500DC39FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Toguz KorgoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "anvarinho.Toguz-KorgoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Toguz Korgool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E01E2198259995DF00DC39FA /* Build configuration list for PBXProject "Toguz Korgool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01E21C0259995E500DC39FA /* Debug */,
+				E01E21C1259995E500DC39FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01E21C2259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz Korgool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01E21C3259995E500DC39FA /* Debug */,
+				E01E21C4259995E500DC39FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01E21C5259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz KorgoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01E21C6259995E500DC39FA /* Debug */,
+				E01E21C7259995E500DC39FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01E21C8259995E500DC39FA /* Build configuration list for PBXNativeTarget "Toguz KorgoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01E21C9259995E500DC39FA /* Debug */,
+				E01E21CA259995E500DC39FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01E2195259995DF00DC39FA /* Project object */;
+}
