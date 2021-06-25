@@ -11,7 +11,7 @@ import SwiftUI
 struct Toguz_KorgoolApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroView()
         }
     }
 }
